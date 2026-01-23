@@ -178,6 +178,14 @@
     letter-spacing: $space_0_66;
 }
 
+.space_2_8 {
+    letter-spacing: $space_2_8;
+}
+
+.space_2 {
+    letter-spacing: $space_2;
+}
+
 .leading16 {
     line-height: $leading16;
 }
@@ -224,6 +232,14 @@
 
 .leading22_4 {
     line-height: $leading22_4;
+}
+
+.radius10 {
+    border-radius: $radius10;
+}
+
+.radius20 {
+    border-radius: $radius20;
 }
 
 @include media-breakpoint-down(lg) {
@@ -343,6 +359,15 @@
         letter-spacing: $space_0_66;
     }
 
+    .res-space_2_8 {
+        letter-spacing: $space_2_8;
+    }
+
+    .res-space_2 {
+        letter-spacing: $space_2;
+    }
+
+
     .res-leading16 {
         line-height: $leading16;
     }
@@ -389,5 +414,13 @@
 
     .res-leading22_4 {
         line-height: $leading22_4;
+    }
+
+    .res-radius10 {
+        border-radius: $radius10;
+    }
+
+    .res-radius20 {
+        border-radius: $radius20;
     }
 }
