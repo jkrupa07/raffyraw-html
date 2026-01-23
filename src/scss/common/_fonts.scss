@@ -1,0 +1,40 @@
+// @font-face {
+//     font-family: "IBM Plex Sans";
+//     src: url('/wp-content/themes/canada/assets/font/IBM Plex Sans.ttf') format('truetype');
+//     font-style: normal;
+// }
+@font-face {
+    font-family: "inter-italic";
+    src: url("../../../public/assets/fonts/inter-italic.ttf");
+}
+
+@font-face {
+    font-family: "inter-medium";
+    src: url("../../../public/assets/fonts/inter-medium.ttf");
+}
+
+@font-face {
+    font-family: "inter-regular";
+    src: url("../../../public/assets/fonts/inter-regular.ttf");
+}
+
+@font-face {
+    font-family: "inter-semibold";
+    src: url("../../../public/assets/fonts/inter-semibold.ttf");
+}
+
+.inter-italic {
+    font-family: "inter-italic";
+}
+
+.inter-medium {
+    font-family: "inter-medium";
+}
+
+.inter-regular {
+    font-family: "inter-regular";
+}
+
+.inter-semibold {
+    font-family: "inter-semibold";
+}
