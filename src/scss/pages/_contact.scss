@@ -2,3 +2,57 @@ body{
     background-color: $color-6EC4CC;
 }
 
+.contact-section{
+    .left-text{
+        color: rgba($color: $white, $alpha: 0.5);
+    }
+    .contact-icon{
+        &:last-child{
+            margin-right: 0 !important;
+        }   
+    }
+    .contact-box{
+        border: 2px solid $color-000000;
+    }
+    .contact-form{
+        position: relative;
+        border: 2px solid $black;
+        &::after{
+            content: "";
+            position: absolute;
+            right: -5px;
+            bottom: -5px;
+            background-color: $black;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            border-radius: 20px;
+
+        }
+        .input{
+            border: 1px solid $color-C9C9C9;
+            height: 59px;
+
+          
+
+            &::placeholder{
+               color: $black !important;
+               padding: 0 15px; 
+            }
+        }
+        .textarea{
+           border: 1px solid $color-C9C9C9;
+            
+            &::placeholder{
+               color: $black !important; 
+               padding: 0 15px; 
+            }
+        }
+    }
+}
+    
+
+
+
+
+  

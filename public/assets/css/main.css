@@ -17597,6 +17597,10 @@ textarea {
   color: #FF5A29;
 }
 
+.text-C9C9C9 {
+  color: #C9C9C9;
+}
+
 .text-000000 {
   color: #000000;
 }
@@ -17993,6 +17997,50 @@ button,
 }
 .card-hover:hover .img {
   transform: scale(1.1);
+}
+
+body {
+  background-color: #6EC4CC;
+}
+
+.contact-section .left-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .contact-icon:last-child {
+  margin-right: 0 !important;
+}
+.contact-section .contact-box {
+  border: 2px solid #000000;
+}
+.contact-section .contact-form {
+  position: relative;
+  border: 2px solid #000;
+}
+.contact-section .contact-form::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 20px;
+}
+.contact-section .contact-form .input {
+  border: 1px solid #C9C9C9;
+  height: 59px;
+}
+.contact-section .contact-form .input::placeholder {
+  color: #000 !important;
+  padding: 0 15px;
+}
+.contact-section .contact-form .textarea {
+  border: 1px solid #C9C9C9;
+}
+.contact-section .contact-form .textarea::placeholder {
+  color: #000 !important;
+  padding: 0 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
