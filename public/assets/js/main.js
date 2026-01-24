@@ -20433,7 +20433,66 @@ var Plugins = /*#__PURE__*/function () {
   }
   plugins_createClass(Plugins, [{
     key: "init",
-    value: function init() {}
+    value: function init() {
+      this.HeaderTopSlider();
+      this.marqureeSlider();
+    }
+  }, {
+    key: "HeaderTopSlider",
+    value: function HeaderTopSlider() {
+      $(".header-top-slider").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        arrows: true,
+        prevArrow: ".mega-menu .prev-arrow",
+        nextArrow: ".mega-menu .next-arrow",
+        responsive: [{
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 525,
+          settings: {
+            slidesToShow: 1,
+            infinite: false
+          }
+        }]
+      });
+    }
+  }, {
+    key: "marqureeSlider",
+    value: function marqureeSlider() {
+      $(".marquree-slider").slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 7000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        cssEase: 'linear',
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        responsive: [{
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 525,
+          settings: {
+            slidesToShow: 1,
+            infinite: false
+          }
+        }]
+      });
+    }
   }]);
   return Plugins;
 }();

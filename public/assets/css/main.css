@@ -17483,6 +17483,15 @@ textarea {
   }
 }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.row > * {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .w-fit {
   width: fit-content;
 }
@@ -17661,6 +17670,10 @@ textarea {
   font-size: 22px;
 }
 
+.font30 {
+  font-size: 30px;
+}
+
 .font40 {
   font-size: 40px;
 }
@@ -17831,6 +17844,9 @@ textarea {
   .res-font20 {
     font-size: 20px;
   }
+  .res-font30 {
+    font-size: 30px;
+  }
   .res-font22 {
     font-size: 22px;
   }
@@ -17997,6 +18013,52 @@ button,
 }
 .card-hover:hover .img {
   transform: scale(1.1);
+}
+
+.marquree-slider .slick-list {
+  overflow: visible;
+}
+
+header {
+  z-index: 9999;
+}
+header .header-top {
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14px);
+}
+header nav ul li {
+  margin-right: 43px;
+}
+header nav ul li:last-child {
+  margin-right: 0px;
+}
+header .header-main .header-logo {
+  width: 255px;
+}
+header .cart-btn-content {
+  border: 3px solid #000;
+  width: 140px;
+  box-shadow: rgba(0, 0, 0, 0.98) 2px 5px;
+}
+header .cart-btn-content .cart-food-img {
+  height: 27px;
+}
+header .cart-btn-content .header-cart-bg {
+  height: 44px;
+  width: 44px;
+}
+
+.hero-section {
+  height: 800px;
+}
+.hero-section .hero-layer {
+  height: 320px;
+  top: 30px;
+  background: linear-gradient(180deg, rgb(255, 90, 41), rgba(255, 90, 41, 0));
+}
+
+.marquree-slider-section .marquree-img {
+  width: 24px;
 }
 
 body {
