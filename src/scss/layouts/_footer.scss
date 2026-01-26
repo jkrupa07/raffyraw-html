@@ -1,0 +1,17 @@
+footer {
+    .social-media-img {
+        width: 19px;
+    }
+
+    .footer-main-img {
+        height: 385px;
+    }
+
+    .footer-links {
+        li {
+            &:last-child {
+                margin-right: 0px !important;
+            }
+        }
+    }
+}

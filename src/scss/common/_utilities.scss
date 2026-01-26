@@ -202,8 +202,16 @@
     line-height: $leading22;
 }
 
+.leading28 {
+    line-height: $leading28;
+}
+
 .leading36 {
     line-height: $leading36;
+}
+
+.leading40 {
+    line-height: $leading40;
 }
 
 .leading85 {
@@ -388,8 +396,16 @@
         line-height: $leading22;
     }
 
+    .res-leading28 {
+        line-height: $leading28;
+    }
+
     .res-leading36 {
         line-height: $leading36;
+    }
+
+    .res-leading40 {
+        line-height: $leading40;
     }
 
     .res-leading85 {

@@ -17491,6 +17491,14 @@ textarea {
   padding-left: 0px;
   padding-right: 0px;
 }
+.row.row10 {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.row.row10 > * {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 .w-fit {
   width: fit-content;
@@ -17774,8 +17782,16 @@ textarea {
   line-height: 22px;
 }
 
+.leading28 {
+  line-height: 28px;
+}
+
 .leading36 {
   line-height: 36px;
+}
+
+.leading40 {
+  line-height: 40px;
 }
 
 .leading85 {
@@ -17924,8 +17940,14 @@ textarea {
   .res-leading22 {
     line-height: 22px;
   }
+  .res-leading28 {
+    line-height: 28px;
+  }
   .res-leading36 {
     line-height: 36px;
+  }
+  .res-leading40 {
+    line-height: 40px;
   }
   .res-leading85 {
     line-height: 85px;
@@ -18015,6 +18037,15 @@ button,
   overflow: visible;
 }
 
+.testimonial-slider .slick-list {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.testimonial-slider .slick-list .slick-slide {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 header {
   z-index: 9999;
 }
@@ -18027,6 +18058,23 @@ header nav ul li {
 }
 header nav ul li:last-child {
   margin-right: 0px;
+}
+header nav ul li .header-hover-link {
+  width: fit-content;
+  opacity: 0;
+  visibility: hidden;
+}
+header nav ul li .mega-menu {
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px 0px, rgb(51, 51, 51) 8px 12px 0px 2px;
+}
+header nav ul li .mega-menu .mega-img {
+  height: 183px;
+}
+header nav ul li:hover .mega-menu,
+header nav ul li:hover .header-hover-link {
+  opacity: 1;
+  visibility: visible;
 }
 header .header-main .header-logo {
   width: 255px;
@@ -18044,6 +18092,20 @@ header .cart-btn-content .header-cart-bg {
   width: 44px;
 }
 
+footer .social-media-img {
+  width: 19px;
+}
+footer .footer-main-img {
+  height: 385px;
+}
+footer .footer-links li:last-child {
+  margin-right: 0px !important;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px 0px, rgb(51, 51, 51) 4px 3px 0px 7px;
+}
+
 .hero-section {
   height: 800px;
 }
@@ -18055,6 +18117,38 @@ header .cart-btn-content .header-cart-bg {
 
 .marquree-slider-section .marquree-img {
   width: 24px;
+}
+
+.layer-section .layer-wrapper .layer-count-bg {
+  height: 50px;
+  width: 50px;
+}
+.layer-section .layer-arrow {
+  height: 70px;
+}
+
+.layer-count-bg::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 55%);
+  width: 15px;
+  height: 70px;
+  background: url("/public/assets/images/black-arrow.svg") center/contain no-repeat;
+}
+
+.layer-wrapper:not(:has(+ .layer-wrapper)) .layer-count-bg::before {
+  display: none;
+}
+
+.testimonial-section .slider-content .animal-img {
+  height: 305px;
+  top: 5px;
+}
+
+.banner-section .banner-img {
+  width: 395px;
 }
 
 /*# sourceMappingURL=main.css.map */
