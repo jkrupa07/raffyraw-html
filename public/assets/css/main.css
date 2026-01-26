@@ -17492,6 +17492,15 @@ textarea {
   padding-right: 0px;
 }
 
+.row11 {
+  margin-left: -11px;
+  margin-right: -11px;
+}
+.row11 > * {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
 .w-fit {
   width: fit-content;
 }
@@ -18065,6 +18074,10 @@ body {
   background-color: #6EC4CC;
 }
 
+.contact-section .layer-image {
+  width: 292px;
+  height: 280px;
+}
 .contact-section .left-text {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -18077,17 +18090,12 @@ body {
 .contact-section .contact-form {
   position: relative;
   border: 2px solid #000;
+  max-width: 674px;
+  height: 880px;
 }
-.contact-section .contact-form::after {
-  content: "";
-  position: absolute;
-  right: -5px;
-  bottom: -5px;
-  background-color: #000;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  border-radius: 20px;
+.contact-section .contact-form .layer-image {
+  width: 292px;
+  height: 280px;
 }
 .contact-section .contact-form .input {
   border: 1px solid #C9C9C9;
@@ -18103,6 +18111,16 @@ body {
 .contact-section .contact-form .textarea::placeholder {
   color: #000 !important;
   padding: 0 15px;
+}
+
+.two-card-section .card-wrapper {
+  position: absolute;
+  top: 0;
+  left: 315px;
+}
+.two-card-section .img-cover {
+  width: 330px;
+  height: 185px;
 }
 
 /*# sourceMappingURL=main.css.map */

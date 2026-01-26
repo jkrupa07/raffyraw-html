@@ -3,6 +3,10 @@ body{
 }
 
 .contact-section{
+    .layer-image{
+        width: 292px;
+        height: 280px;
+    }
     .left-text{
         color: rgba($color: $white, $alpha: 0.5);
     }
@@ -12,22 +16,17 @@ body{
         }   
     }
     .contact-box{
-        border: 2px solid $color-000000;
+        border: 2px solid $color-000000;    
     }
+
     .contact-form{
         position: relative;
         border: 2px solid $black;
-        &::after{
-            content: "";
-            position: absolute;
-            right: -5px;
-            bottom: -5px;
-            background-color: $black;
-            height: 100%;
-            width: 100%;
-            z-index: -1;
-            border-radius: 20px;
-
+        max-width: 674px;
+        height: 880px;
+        .layer-image{
+            width: 292px;
+            height: 280px;
         }
         .input{
             border: 1px solid $color-C9C9C9;
@@ -48,11 +47,20 @@ body{
                padding: 0 15px; 
             }
         }
+
     }
 }
-    
 
-
-
+.two-card-section{
+    .card-wrapper{
+        position: absolute;
+        top: 0;
+        left: 315px;
+    }
+    .img-cover{
+        width: 330px;
+        height: 185px;
+    }
+}
 
   
