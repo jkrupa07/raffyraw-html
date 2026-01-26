@@ -14,6 +14,32 @@ header {
                 &:last-child {
                     margin-right: 0px;
                 }
+
+                .header-hover-link {
+                    width: fit-content;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+
+                .mega-menu {
+                    // opacity: 0;
+                    // visibility: hidden;
+                    border-radius: 0px 0px 20px 20px;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px 0px, rgb(51, 51, 51) 8px 12px 0px 2px;
+
+                    .mega-img {
+                        height: 183px;
+                    }
+                }
+
+                &:hover {
+
+                    .mega-menu,
+                    .header-hover-link {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
             }
         }
     }
@@ -29,7 +55,7 @@ header {
         width: 140px;
         box-shadow: rgba(0, 0, 0, 0.98) 2px 5px;
         // box-shadow: rgba(0, 0, 0, 0.16) 1px 0px 5px 0px, rgb(51, 51, 51) 2px 2px 0px 5px;
-        // box-shadow: rgba(0, 0, 0, 0.16) 2px 0px 8px 0px, rgb(51, 51, 51) 4px 2px 0px 5px;
+        // box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px 0px, rgb(51, 51, 51) 4px 3px 0px 7px;
 
         .cart-food-img {
             height: 27px;

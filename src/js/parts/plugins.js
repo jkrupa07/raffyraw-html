@@ -5,6 +5,7 @@ export class Plugins {
   init() {
     this.HeaderTopSlider();
     this.marqureeSlider();
+    this.TestimonialSlider();
   }
 
   HeaderTopSlider() {
@@ -48,6 +49,34 @@ export class Plugins {
       cssEase: 'linear',
       pauseOnHover: false,
       pauseOnFocus: false,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 525,
+          settings: {
+            slidesToShow: 1,
+            infinite: false,
+          },
+        },
+      ],
+    });
+  }
+  TestimonialSlider() {
+    $(".testimonial-slider").slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: false,
+      arrows: true,
+      prevArrow: ".mega-menu .prev-arrow",
+      nextArrow: ".mega-menu .next-arrow",
       responsive: [
         {
           breakpoint: 991,

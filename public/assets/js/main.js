@@ -20436,6 +20436,7 @@ var Plugins = /*#__PURE__*/function () {
     value: function init() {
       this.HeaderTopSlider();
       this.marqureeSlider();
+      this.TestimonialSlider();
     }
   }, {
     key: "HeaderTopSlider",
@@ -20479,6 +20480,33 @@ var Plugins = /*#__PURE__*/function () {
         cssEase: 'linear',
         pauseOnHover: false,
         pauseOnFocus: false,
+        responsive: [{
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 525,
+          settings: {
+            slidesToShow: 1,
+            infinite: false
+          }
+        }]
+      });
+    }
+  }, {
+    key: "TestimonialSlider",
+    value: function TestimonialSlider() {
+      $(".testimonial-slider").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        arrows: true,
+        prevArrow: ".mega-menu .prev-arrow",
+        nextArrow: ".mega-menu .next-arrow",
         responsive: [{
           breakpoint: 991,
           settings: {

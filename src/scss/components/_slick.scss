@@ -3,3 +3,15 @@
         overflow: visible;
     }
 }
+
+.testimonial-slider {
+    .slick-list {
+        margin-left: -25px;
+        margin-right: -25px;
+
+        .slick-slide {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+}
