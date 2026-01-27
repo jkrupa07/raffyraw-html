@@ -256,6 +256,10 @@
     border-radius: $radius20;
 }
 
+.radius40 {
+    border-radius: $radius40;
+}
+
 @include media-breakpoint-down(lg) {
     .res-font12 {
         font-size: $font12;
