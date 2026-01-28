@@ -17518,6 +17518,15 @@ textarea {
   padding-right: 12px;
 }
 
+.row45 {
+  margin-left: -45px;
+  margin-right: -45px;
+}
+.row45 > * {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
 .w-fit {
   width: fit-content;
 }
@@ -17854,6 +17863,10 @@ textarea {
 
 .radius20 {
   border-radius: 20px;
+}
+
+.radius25 {
+  border-radius: 25px;
 }
 
 .radius40 {
@@ -18245,6 +18258,53 @@ body {
 .left-right-img-section .left-image {
   width: 660px;
   height: 545px;
+}
+
+/* wrapper to allow overflow right */
+.working-wrapper {
+  overflow: visible;
+  position: relative;
+  /* left padding fixed 40px */
+  padding-left: 40px;
+}
+
+/* slick slider */
+.working-slick {
+  display: flex;
+  width: calc(100% + (100vw - 100%) / 2);
+  margin-right: calc((100vw - 100%) / -2);
+  margin-left: 0;
+}
+
+.working-slick .slide-item {
+  padding-right: 30px;
+}
+
+.working-layer-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 274px;
+  height: 250px;
+}
+
+.img-wrapper {
+  width: 360px;
+  height: 280px;
+}
+
+.number {
+  width: 43px;
+  height: 43px;
+}
+
+.arrow {
+  width: 340px;
+}
+
+.logo-section .logo-image {
+  width: 179px;
+  height: 188px;
 }
 
 .two-card-section .card-wrapper {

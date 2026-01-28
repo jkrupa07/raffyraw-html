@@ -20413,7 +20413,21 @@ var App = /*#__PURE__*/function () {
   }
   _createClass(App, [{
     key: "init",
-    value: function init() {}
+    value: function init() {
+      this.Workingslider();
+    }
+  }, {
+    key: "Workingslider",
+    value: function Workingslider() {
+      $('.working-slick').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true
+      });
+    }
   }]);
   return App;
 }();
