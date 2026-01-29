@@ -14,7 +14,6 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 274px;
     height: 250px;
   }
 
@@ -54,20 +53,16 @@ body {
 
 .logo-section {
   .logo-image {
-    width: 179px;
-    height: 188px;
+    width: 178px;
+    height: 186px;
   }
 }
 
 .two-card-section {
-  .card-wrapper {
-    position: absolute;
-    top: 0;
-    left: 315px;
-  }
-
   .img-cover {
-    width: 330px;
-    height: 185px;
+    height: 210px;
+    right: 0;
+    top: 50%;
+    
   }
 }
