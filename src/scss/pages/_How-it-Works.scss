@@ -17,10 +17,11 @@ body {
     width: 274px;
     height: 250px;
   }
-  
-  .slick-list{
+
+  .slick-list {
     overflow: visible;
   }
+
   .img-wrapper {
     width: 360px;
     height: 280px;
@@ -30,8 +31,23 @@ body {
     width: 43px;
     height: 43px;
   }
+
   .arrow {
     width: 340px;
+  }
+
+  .history-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 19px;
+    width: 355px;
+    transform: translate(0%, -50%);
+    height: 15px;
+    background-image: url("/public/assets/images/Arrow.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -49,10 +65,9 @@ body {
     top: 0;
     left: 315px;
   }
+
   .img-cover {
     width: 330px;
     height: 185px;
   }
 }
-
-

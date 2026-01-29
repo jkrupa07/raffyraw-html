@@ -20419,7 +20419,7 @@ var App = /*#__PURE__*/function () {
   }, {
     key: "Workingslider",
     value: function Workingslider() {
-      $('.slider-inner').slick({
+      $('.working-slider').slick({
         dots: false,
         infinite: false,
         speed: 300,
