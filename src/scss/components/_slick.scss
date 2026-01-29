@@ -27,3 +27,18 @@
         }
     }
 }
+
+
+
+.working-slider-section {
+    .slick-list {
+        margin-left: -45px;
+        margin-right: -45px;
+
+        .slick-slide {
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+    }
+}
+
