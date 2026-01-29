@@ -5,7 +5,7 @@ export class App {
 
 Workingslider(){
 
-$('.slider-inner').slick({
+$('.working-slider').slick({
   dots: false,
   infinite: false,
   speed: 300,

@@ -14061,6 +14061,19 @@ body {
 .working-slider-section .arrow {
   width: 340px; }
 
+.working-slider-section .history-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 19px;
+  width: 355px;
+  transform: translate(0%, -50%);
+  height: 15px;
+  background-image: url("/public/assets/images/Arrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .logo-section .logo-image {
   width: 179px;
   height: 188px; }
