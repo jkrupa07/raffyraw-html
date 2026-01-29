@@ -1,3 +1,15 @@
+.header-top-slider {
+    .slick-slide {
+        color: rgba($color: $white, $alpha: 0.3);
+
+        &.slick-current {
+            .discount-tag {
+                color: $white;
+            }
+        }
+    }
+}
+
 .marquree-slider {
     .slick-list {
         overflow: visible;
@@ -15,6 +27,3 @@
         }
     }
 }
-
-
-

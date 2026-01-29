@@ -5,6 +5,10 @@ footer {
 
     .footer-main-img {
         height: 385px;
+
+        @include media-breakpoint-down(lg) {
+            height: auto;
+        }
     }
 
     .footer-links {

@@ -18,28 +18,28 @@
     <div class="header-top py-1">
       <div class="container">
         <div class="header-top-slider">
-          <div class="inter-regular font14 leading22_4 space_0_14 text-center">
+          <div class="discount-tag inter-regular font14 leading22_4 space_0_14 text-center transition">
             Free delivery on orders over £40.
           </div>
-          <div class="inter-regular font14 leading22_4 space_0_14 text-center">
+          <div class="discount-tag inter-regular font14 leading22_4 space_0_14 text-center transition">
             Subscribe & Save 10% on every order.
           </div>
-          <div class="inter-regular font14 leading22_4 space_0_14 text-center">
+          <div class="discount-tag inter-regular font14 leading22_4 space_0_14 text-center transition">
             Free delivery on orders over £40.
           </div>
-          <div class="inter-regular font14 leading22_4 space_0_14 text-center">
+          <div class="discount-tag inter-regular font14 leading22_4 space_0_14 text-center transition">
             Subscribe & Save 10% on every order.
           </div>
         </div>
       </div>
     </div>
-    <div class="header-main position-relative">
+    <div class="header-main position-relative transition">
       <div class="container">
         <div class="row justify-content-between align-items-center">
-          <nav class="col-3">
+          <nav class="col-3 d-lg-flex d-none">
             <ul class="list-none navigation d-flex ps-0 mb-0">
-              <li class="header-link py-4">
-                <a class="inter-medium font18 space_0_54 leading22_4 text-white text-nowrap d-flex flex-column text-capitalize text-decoration-none dpt-20 dpb-20"
+              <li class="header-link d-flex align-items-center py-4 cursor-pointer">
+                <a class="main-nav-link inter-medium font18 space_0_54 leading22_4 text-white text-nowrap d-inline-flex flex-column text-capitalize text-decoration-none"
                   href="">Shop
                   <img class="header-hover-link transition dmt-10" src="/public/assets/images/hover-link.svg" alt="">
                 </a>
@@ -47,7 +47,7 @@
                   <div class="container">
                     <div class="row row10">
                       <div class="col-3">
-                        <div class="mega-img dmb-15">
+                        <div class="mega-img radius20 dmb-15">
                           <img class="w-100 h-100 object-cover" src="/public/assets/images/card1.png" alt="">
                         </div>
                         <div class="helve-regular font18 leading25_2 text-black text-capitalize">
@@ -61,7 +61,7 @@
                         </div>
                       </div>
                       <div class="col-3">
-                        <div class="mega-img dmb-15">
+                        <div class="mega-img radius20 dmb-15">
                           <img class="w-100 h-100 object-cover" src="/public/assets/images/card1.png" alt="">
                         </div>
                         <div class="helve-regular font18 leading25_2 text-black text-capitalize">
@@ -75,7 +75,21 @@
                         </div>
                       </div>
                       <div class="col-3">
-                        <div class="mega-img dmb-15">
+                        <div class="mega-img radius20 dmb-15">
+                          <img class="w-100 h-100 object-cover" src="/public/assets/images/card1.png" alt="">
+                        </div>
+                        <div class="helve-regular font18 leading25_2 text-black text-capitalize">
+                          Complete Meals
+                        </div>
+                        <div class="inter-regular font14 space_0_42 leading22 text-black">
+                          Balanced, ready-to-serve raw meals
+                        </div>
+                        <div class="">
+                          <a class="inter-regular font14 space_0_42 leading22 text-black" href="">View All</a>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="mega-img radius20 dmb-15">
                           <img class="w-100 h-100 object-cover" src="/public/assets/images/card1.png" alt="">
                         </div>
                         <div class="helve-regular font18 leading25_2 text-black text-capitalize">
@@ -92,34 +106,40 @@
                   </div>
                 </div>
               </li>
-              <li class="header-link py-4">
-                <a class="inter-medium font18 space_0_54 leading22_4 text-white text-nowrap d-flex flex-column text-capitalize text-decoration-none dpt-20 dpb-20"
+              <li class="header-link d-flex align-items-center py-4 cursor-pointer">
+                <a class="main-nav-link inter-medium font18 space_0_54 leading22_4 text-white text-nowrap d-inline-flex flex-column text-capitalize text-decoration-none"
                   href="">Portion
                   Calculator
                   <img class="header-hover-link transition dmt-10" src="/public/assets/images/hover-link.svg" alt="">
                 </a>
               </li>
-              <li class="header-link py-4">
-                <a class="inter-medium font18 space_0_54 leading22_4 text-white text-nowrap d-flex flex-column text-capitalize text-decoration-none dpt-20 dpb-20"
+              <li class="header-link d-flex align-items-center py-4 cursor-pointer">
+                <a class="main-nav-link inter-medium font18 space_0_54 leading22_4 text-white text-nowrap d-inline-flex flex-column text-capitalize text-decoration-none"
                   href="">About
                   <img class="header-hover-link transition dmt-10" src="/public/assets/images/hover-link.svg" alt="">
                 </a>
-
               </li>
             </ul>
           </nav>
+          <div class="col-2 d-lg-none d-flex burger-menu">
+            <a href="">
+              <img class="h-100" src="/public/assets/images/white-burgermenu.svg" alt="">
+            </a>
+          </div>
           <div class="col-3 header-logo">
             <a href="">
               <img class="w-100" src="./assets/images/white-logo.svg" alt="">
             </a>
           </div>
-          <div class="col-3 d-flex justify-content-end align-items-center">
-            <div class="me-5">
-              <a class="inter-medium font18 space_0_54 leading22_4 text-white text-decoration-none" href="">
+          <div class="col-3 d-flex justify-content-end align-items-end">
+            <div class="me-xl-5 me-lg-3">
+              <a class="right-header-link inter-medium font18 space_0_54 leading22_4 text-nowrap d-inline-flex flex-column text-white text-decoration-none"
+                href="">
                 How It Works
+                <img class="header-hover-link transition dmt-10" src="/public/assets/images/hover-link.svg">
               </a>
             </div>
-            <a class="cart-btn-content p-2 bg-white rounded-pill text-decoration-none" href="">
+            <a class="cart-btn-content p-1 bg-white rounded-pill text-decoration-none" href="">
               <div class="d-flex justify-content-end align-items-center">
                 <div class="cart-food-img">
                   <img class="w-100" src="./assets/images/food-img.svg" alt="">
@@ -138,14 +158,15 @@
     </div>
   </header>
   <main>
+
     <section class="hero-section bg-FF5A29 position-relative">
       <div class="hero-layer position-absolute start-0 w-100"></div>
       <img class="w-100 h-100 object-cover" src="./assets/images/hero-img.png" alt="Hero Image">
       <div class="hero-content position-absolute top-left-center w-100">
         <div class="container">
-          <div class="col-5 mx-auto">
+          <div class="col-xl-5 col-lg-7 mx-auto">
             <div
-              class="col-9 mx-auto gothic-regular font140 space_2_8 leading110 text-white text-center text-capitalize dmb-20">
+              class="col-lg-9 col-md-10 col-sm-11 col-12 mx-auto gothic-regular font140 space_2_8 leading110 text-white text-center text-capitalize dmb-20">
               Just The Good Stuff.
             </div>
             <div class="inter-regular font16 space_0_48 leading22 text-center text-black dmb-20 px-3 mx-2">
@@ -163,6 +184,7 @@
         </div>
       </div>
     </section>
+
     <section class="marquree-slider-section overflow-hidden bg-black py-2">
       <div class="container">
         <div class="marquree-slider">
@@ -201,15 +223,17 @@
         </div>
       </div>
     </section>
+
     <div class="spacing bg-C260F0 dpt-195"></div>
+
     <section class="layer-section bg-C260F0">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-5">
-            <div class="col-6 gothic-regular font90 space_1_8 leading85 text-white text-capitalize dmb-15">
+          <div class="col-lg-5 col-12">
+            <div class="col-xl-6 col-lg-11 gothic-regular font90 space_1_8 leading85 text-white text-capitalize dmb-15">
               Raw Feeding Made Simple
             </div>
-            <div class="col-10 inter-regular font16 space_0_48 leading22 text-black dmb-20">
+            <div class="col-xl-10 col-lg-12 inter-regular font16 space_0_48 leading22 text-black dmb-20">
               No complicated science. No overwhelming choices. Just honest food, delivered.
             </div>
             <div class="">
@@ -217,7 +241,7 @@
                 href="">Calculate portion</a>
             </div>
           </div>
-          <div class="col-7">
+          <div class="col-lg-7">
             <div class="layer-wrapper d-flex align-items-center">
               <div
                 class="layer-count-bg position-relative bg-black d-flex justify-content-center align-items-center rounded-circle dmb-15">
@@ -264,7 +288,9 @@
         </div>
       </div>
     </section>
+
     <div class="spacing bg-C260F0 dpt-255"></div>
+
     <section class="testimonial-section bg-C260F0 overflow-hidden">
       <div class="container">
         <div class="slider-content position-relative">
@@ -277,7 +303,7 @@
             <img class="h-100" src="/public/assets/images/dog.svg" alt="Image">
           </div>
           <div class="testimonial-slider">
-            <div class="box-shadow mt-1 radius20 overflow-hidden bg-white dpt-50 dpb-35 px-5">
+            <div class="box-shadow my-2 radius20 overflow-hidden bg-white dpt-50 dpb-35 px-5">
               <div class="   ">
                 <div class="inter-italic font20 space_0_6 leading28_8 dmb-20">
                   "Finally, dog food I can actually
@@ -293,7 +319,7 @@
                 </div>
               </div>
             </div>
-            <div class="box-shadow mt-1 radius20 overflow-hidden bg-white dpt-50 dpb-35 px-5">
+            <div class="box-shadow my-2 radius20 overflow-hidden bg-white dpt-50 dpb-35 px-5">
               <div class="   ">
                 <div class="inter-italic font20 space_0_6 leading28_8 dmb-20">
                   "Finally, dog food I can actually
@@ -309,7 +335,7 @@
                 </div>
               </div>
             </div>
-            <div class="box-shadow mt-1 radius20 overflow-hidden bg-white dpt-50 dpb-35 px-5">
+            <div class="box-shadow my-2 radius20 overflow-hidden bg-white dpt-50 dpb-35 px-5">
               <div class="   ">
                 <div class="inter-italic font20 space_0_6 leading28_8 dmb-20">
                   "Finally, dog food I can actually
@@ -325,7 +351,7 @@
                 </div>
               </div>
             </div>
-            <div class="box-shadow mt-1 radius20 overflow-hidden bg-white dpt-50 dpb-35 px-5">
+            <div class="box-shadow my-2 radius20 overflow-hidden bg-white dpt-50 dpb-35 px-5">
               <div class="   ">
                 <div class="inter-italic font20 space_0_6 leading28_8 dmb-20">
                   "Finally, dog food I can actually
@@ -345,14 +371,15 @@
         </div>
       </div>
     </section>
+
     <div class="spacing dpt-190 bg-C260F0"></div>
 
     <div class="spacing dpt-170 bg-FF5A29"></div>
 
     <section class="banner-section bg-FF5A29">
       <div class="container">
-        <div class="col-9 mx-auto">
-          <div class="col-11 position-relative bg-white radius20 overflow-hidden box-shadow dpt-50 dpb-45 mx-auto px-5">
+        <div class="col-xl-10 col-12 mx-auto">
+          <div class="col-xl-10 col-lg-11 col-12 position-relative bg-white radius20 overflow-hidden box-shadow dpt-50 dpb-45 mx-auto px-5">
             <div class="row">
               <div class="col-8">
                 <div class="gothic-regular font60 space_1_2 leading60 text-FF5A29 dmb-20">
@@ -377,6 +404,68 @@
       </div>
     </section>
 
+
+    <div class="spacing dpt-170 bg-FF5A29"></div>
+
+    <section class="guideline-card-section bg-FF5A29">
+      <div class="container">
+        <div class="col-10 dmb-35">
+          <div class="gothic-regular font100 space_2 leading57_6 text-white text-capitalize dmb-30">
+            Feeding Guidelines
+          </div>
+          <div class="inter-regular font16 space_0_48 leading16 text-black">
+            A quick reference for raw feeding portions
+          </div>
+        </div>
+        <div class="card-container row row12">
+          <div class="col-4">
+            <div class="inner-card bg-white p-5 radius20">
+              <div class="inter-medium font22 space_0_66 leading20 text-black text-capitalize dmb-20">
+                Puppies
+              </div>
+              <div class="inter-regular font14 space_0_42 leading22 text-black dmb-40">
+                Growing puppies need more food relative to their body weight. Feed 5-8% of their current weight,
+                reducing
+                as they approach adult size.
+              </div>
+              <div class="inter-medium font14 space_0_42 leading22 text-black">
+                Split into 3-4 meals until 6 months, then 2 meals.
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="inner-card bg-white p-5 radius20">
+              <div class="inter-medium font22 space_0_66 leading20 text-black text-capitalize dmb-20">
+                Puppies
+              </div>
+              <div class="inter-regular font14 space_0_42 leading22 text-black dmb-40">
+                Growing puppies need more food relative to their body weight. Feed 5-8% of their current weight,
+                reducing
+                as they approach adult size.
+              </div>
+              <div class="inter-medium font14 space_0_42 leading22 text-black">
+                Split into 3-4 meals until 6 months, then 2 meals.
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="inner-card bg-white p-5 radius20">
+              <div class="inter-medium font22 space_0_66 leading20 text-black text-capitalize dmb-20">
+                Puppies
+              </div>
+              <div class="inter-regular font14 space_0_42 leading22 text-black dmb-40">
+                Growing puppies need more food relative to their body weight. Feed 5-8% of their current weight,
+                reducing
+                as they approach adult size.
+              </div>
+              <div class="inter-medium font14 space_0_42 leading22 text-black">
+                Split into 3-4 meals until 6 months, then 2 meals.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="spacing dpt-170 bg-FF5A29"></div>
   </main>

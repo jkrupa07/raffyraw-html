@@ -6,64 +6,122 @@ header {
         backdrop-filter: blur(14px);
     }
 
-    nav {
-        ul {
-            li {
-                margin-right: 43px;
+    .header-main {
+        .header-logo {
+            width: 255px;
 
-                &:last-child {
-                    margin-right: 0px;
-                }
+            @include media-breakpoint-down(lg) {
+                width: 140px;
+            }
+        }
 
-                .header-hover-link {
-                    width: fit-content;
-                    opacity: 0;
-                    visibility: hidden;
-                }
+        nav {
+            ul {
+                li {
+                    padding-right: 43px;
 
-                .mega-menu {
-                    // opacity: 0;
-                    // visibility: hidden;
-                    border-radius: 0px 0px 20px 20px;
-                    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px 0px, rgb(51, 51, 51) 8px 12px 0px 2px;
-
-                    .mega-img {
-                        height: 183px;
+                    &:last-child {
+                        padding-right: 0px;
                     }
-                }
 
-                &:hover {
+                    .mega-menu {
+                        opacity: 0;
+                        visibility: hidden;
+                        border-radius: 0px 0px 20px 20px;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px 0px, rgb(51, 51, 51) 8px 12px 0px 2px;
+                        border-left: 2px solid $black;
+                        border-right: 2px solid $black;
 
-                    .mega-menu,
-                    .header-hover-link {
-                        opacity: 1;
-                        visibility: visible;
+                        .mega-img {
+                            height: 183px;
+                        }
+                    }
+
+                    &:hover {
+
+                        .mega-menu,
+                        .header-hover-link {
+                            opacity: 1;
+                            visibility: visible;
+                        }
                     }
                 }
             }
         }
-    }
 
-    .header-main {
-        .header-logo {
-            width: 255px;
+        .burger-menu {
+            height: 40px;
+        }
+
+        .header-hover-link {
+            width: 100%;
+            opacity: 0;
+        }
+
+        .right-header-link {
+            &:hover {
+                .header-hover-link {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .cart-btn-content {
+            border: 3px solid #000;
+            width: 140px;
+            box-shadow: rgba(0, 0, 0, 0.98) 2px 5px;
+
+            .cart-food-img {
+                height: 27px;
+            }
+
+            .header-cart-bg {
+                height: 44px;
+                width: 44px;
+            }
+        }
+
+        &.header-active {
+            background-color: $white;
+            border-left: 2px solid $black;
+            border-right: 2px solid $black;
+
+            .header-link {
+                .main-nav-link {
+                    filter: invert(1);
+                }
+            }
+
+            .header-logo,
+            .right-header-link {
+                filter: invert(1);
+            }
         }
     }
 
-    .cart-btn-content {
-        border: 3px solid #000;
-        width: 140px;
-        box-shadow: rgba(0, 0, 0, 0.98) 2px 5px;
-        // box-shadow: rgba(0, 0, 0, 0.16) 1px 0px 5px 0px, rgb(51, 51, 51) 2px 2px 0px 5px;
-        // box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px 0px, rgb(51, 51, 51) 4px 3px 0px 7px;
+    &.hidden {
+        transform: translateY(-115px);
+    }
 
-        .cart-food-img {
-            height: 27px;
-        }
+    &.black-header {
+        .header-main {
+            nav {
+                ul {
+                    li {
+                        .main-nav-link {
+                            color: $black !important;
+                        }
+                    }
+                }
+            }
 
-        .header-cart-bg {
-            height: 44px;
-            width: 44px;
+            .header-logo {
+                filter: invert(1);
+            }
+
+            .right-header-link {
+                color: $black !important;
+            }
         }
     }
 }
