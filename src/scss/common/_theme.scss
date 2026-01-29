@@ -75,6 +75,8 @@
   text-overflow: ellipsis;
 }
 
+
+
 @include media-breakpoint-down(lg) {
   .px-p-0 {
     padding-left: 0 !important;
