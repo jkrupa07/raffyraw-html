@@ -11,12 +11,18 @@
     }
 }
 
-.counter-cards{
+.counter-cards {
     padding: 40px 54px;
 }
 
-.category-card{
+.category-card {
     .category-img {
         height: 38px;
+    }
+}
+
+.card-container {
+    .inner-card {
+        border: 2px solid $black;
     }
 }

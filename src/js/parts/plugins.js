@@ -12,13 +12,12 @@ export class Plugins {
     $(".header-top-slider").slick({
       dots: false,
       infinite: true,
-      speed: 300,
+      speed: 900,
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay: false,
-      arrows: true,
-      prevArrow: ".mega-menu .prev-arrow",
-      nextArrow: ".mega-menu .next-arrow",
+      autoplay: true,
+      arrows: false,
+      centerMode: true,
       responsive: [
         {
           breakpoint: 991,
@@ -36,6 +35,7 @@ export class Plugins {
       ],
     });
   }
+
   marqureeSlider() {
     $(".marquree-slider").slick({
       dots: false,
@@ -66,6 +66,7 @@ export class Plugins {
       ],
     });
   }
+  
   TestimonialSlider() {
     $(".testimonial-slider").slick({
       dots: false,
