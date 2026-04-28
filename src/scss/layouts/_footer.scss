@@ -1,21 +1,28 @@
-footer {
-    .social-media-img {
-        width: 19px;
+.footer {
+    .footer-logo {
+        height: 120px;
     }
 
-    .footer-main-img {
-        height: 385px;
+    .social-media {
+        li {
+            background-color: $black ;
 
-        @include media-breakpoint-down(lg) {
-            height: auto;
+            &:first-child {
+                margin-left: 0px !important;
+            }
+
+            &:last-child {
+                margin-left: 0px !important;
+            }
         }
     }
 
-    .footer-links {
-        li {
-            &:last-child {
-                margin-right: 0px !important;
-            }
+    .social-icon {
+        width: 40px;
+        height: 40px;
+
+        img {
+            height: 15px;
         }
     }
 }

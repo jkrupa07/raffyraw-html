@@ -8,43 +8,32 @@ button,
 }
 
 .btnA {
-    height: 62px;
-    padding-left: 34px;
-    padding-right: 34px;
+    height: 57px;
+    padding-left: 20px;
+    padding-right: 20px;
 
-    &.bg-white-btn {
-        background-color: $white;
-        border: 1px solid transparent;
-        color: $black;
+    &.bg-03193f-btn {
+        background-color: transparent;
+        color: $color-03193f;
+        border: 2px solid $color-03193f;
 
         &:hover {
-            background-color: transparent;
-            border: 1px solid $black;
-            color: $black;
+            background-color: $color-03193f;
+            color: $white;
         }
     }
+}
 
-    &.bg-black-btn {
-        background-color: $black;
-        border: 1px solid transparent;
-        color: $white;
-
-        &:hover {
-            background-color: transparent;
-            border: 1px solid $black;
-            color: $black;
+.header-btn {
+    &.bg-03193f-btn {
+        a {
+            color: $color-03193f;
         }
-    }
-
-    &.bg-FF5A29-btn {
-        background-color: $color-FF5A29;
-        border: 1px solid transparent;
-        color: $white;
 
         &:hover {
-            background-color: transparent;
-            border: 1px solid $color-FF5A29;
-            color: $color-FF5A29;
+            a {
+                color: $white;
+            }
         }
     }
 }
